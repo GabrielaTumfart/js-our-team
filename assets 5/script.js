@@ -44,6 +44,9 @@ const container = document.getElementById(team-container);
 
 //creo ora una function
 function mostraTeam() {
-  
-}
+  container.innerHTML = ""; 
+
+  for (let membro of team) {}
+
+} 
 
