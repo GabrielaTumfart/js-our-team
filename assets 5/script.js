@@ -36,3 +36,7 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+//ora faccio un'array col time e le foto
+
+const team = []
