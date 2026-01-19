@@ -46,7 +46,16 @@ const container = document.getElementById(team-container);
 function mostraTeam() {
   container.innerHTML = ""; 
 
-  for (let membro of team) {}
+  //scelgo il for of e provo ad usare la destrutturazione che abbiamo imparato oggi
+
+  for (let membro of teamMembers) {
+    const { name, role, email, img} = membro;
+
+    const card = document.createElement("div");
+    
+
+
+  }
 
 } 
 
