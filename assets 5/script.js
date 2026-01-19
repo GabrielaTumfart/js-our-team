@@ -56,11 +56,16 @@ function mostraTeam() {
     card.innerHTML = `<img src="${img} width=30>
     <p>${name}</p>
     <p>${role}</p>
-    <p>${email}</p>`
+    <p>${email}</p>`;
+
+    container.appendChild(card);
 
 
 
   }
 
 } 
+
+//mostro il team
+mostraTeam();
 
