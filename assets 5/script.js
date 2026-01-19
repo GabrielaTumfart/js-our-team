@@ -1,3 +1,5 @@
+//ora faccio un'array col time e le foto
+
 const teamMembers = [
   {
     name: "Marco Bianchi",
@@ -37,6 +39,6 @@ const teamMembers = [
   }
 ];
 
-//ora faccio un'array col time e le foto
+//prendo elemento del DOM
+const container = document.getElementById(team-container);
 
-const team = []
