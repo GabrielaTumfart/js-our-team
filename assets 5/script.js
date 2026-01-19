@@ -53,6 +53,11 @@ function mostraTeam() {
 
     const card = document.createElement("div");
 
+    card.innerHTML = `<img src="${img} width=30>
+    <p>${name}</p>
+    <p>${role}</p>
+    <p>${email}</p>`
+
 
 
   }
