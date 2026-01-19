@@ -40,7 +40,7 @@ const teamMembers = [
 ];
 
 //prendo elemento del DOM
-const container = document.getElementById(team-container);
+const container = document.getElementById("team-container");
 
 //creo ora una function
 function mostraTeam() {
